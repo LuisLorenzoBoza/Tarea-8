@@ -121,50 +121,54 @@
             // 
             // Eliminarbutton
             // 
+            this.Eliminarbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.Eliminarbutton.ForeColor = System.Drawing.Color.Yellow;
             this.Eliminarbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Eliminarbutton.Location = new System.Drawing.Point(396, 182);
+            this.Eliminarbutton.Location = new System.Drawing.Point(396, 194);
             this.Eliminarbutton.Name = "Eliminarbutton";
-            this.Eliminarbutton.Size = new System.Drawing.Size(83, 54);
+            this.Eliminarbutton.Size = new System.Drawing.Size(83, 42);
             this.Eliminarbutton.TabIndex = 42;
             this.Eliminarbutton.Text = "Eliminar";
-            this.Eliminarbutton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Eliminarbutton.UseVisualStyleBackColor = true;
+            this.Eliminarbutton.UseVisualStyleBackColor = false;
             this.Eliminarbutton.Click += new System.EventHandler(this.Eliminarbutton_Click);
             // 
             // Guardarbutton
             // 
+            this.Guardarbutton.BackColor = System.Drawing.Color.Green;
+            this.Guardarbutton.ForeColor = System.Drawing.Color.Yellow;
             this.Guardarbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Guardarbutton.Location = new System.Drawing.Point(396, 99);
+            this.Guardarbutton.Location = new System.Drawing.Point(396, 100);
             this.Guardarbutton.Name = "Guardarbutton";
-            this.Guardarbutton.Size = new System.Drawing.Size(83, 54);
+            this.Guardarbutton.Size = new System.Drawing.Size(83, 42);
             this.Guardarbutton.TabIndex = 41;
             this.Guardarbutton.Text = "Guardar";
-            this.Guardarbutton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Guardarbutton.UseVisualStyleBackColor = true;
+            this.Guardarbutton.UseVisualStyleBackColor = false;
             this.Guardarbutton.Click += new System.EventHandler(this.Guardarbutton_Click);
             // 
             // Nuevobutton
             // 
+            this.Nuevobutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.Nuevobutton.ForeColor = System.Drawing.Color.Yellow;
             this.Nuevobutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Nuevobutton.Location = new System.Drawing.Point(396, 12);
+            this.Nuevobutton.Location = new System.Drawing.Point(396, 21);
             this.Nuevobutton.Name = "Nuevobutton";
-            this.Nuevobutton.Size = new System.Drawing.Size(83, 54);
+            this.Nuevobutton.Size = new System.Drawing.Size(83, 36);
             this.Nuevobutton.TabIndex = 40;
             this.Nuevobutton.Text = "Nuevo";
-            this.Nuevobutton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Nuevobutton.UseVisualStyleBackColor = true;
+            this.Nuevobutton.UseVisualStyleBackColor = false;
             this.Nuevobutton.Click += new System.EventHandler(this.Nuevobutton_Click);
             // 
             // Buscarbutton
             // 
+            this.Buscarbutton.BackColor = System.Drawing.Color.Green;
+            this.Buscarbutton.ForeColor = System.Drawing.Color.Yellow;
             this.Buscarbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Buscarbutton.Location = new System.Drawing.Point(272, 12);
+            this.Buscarbutton.Location = new System.Drawing.Point(272, 21);
             this.Buscarbutton.Name = "Buscarbutton";
-            this.Buscarbutton.Size = new System.Drawing.Size(75, 54);
+            this.Buscarbutton.Size = new System.Drawing.Size(75, 36);
             this.Buscarbutton.TabIndex = 43;
             this.Buscarbutton.Text = "Buscar";
-            this.Buscarbutton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Buscarbutton.UseVisualStyleBackColor = true;
+            this.Buscarbutton.UseVisualStyleBackColor = false;
             this.Buscarbutton.Click += new System.EventHandler(this.Buscarbutton_Click);
             // 
             // Descripcionlabel
@@ -202,6 +206,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(515, 269);
             this.Controls.Add(this.TipocomboBox);
             this.Controls.Add(this.Tipolabel);
@@ -218,6 +223,7 @@
             this.Controls.Add(this.Descripcionlabel);
             this.Controls.Add(this.Siglaslabel);
             this.Controls.Add(this.LibroIDlabel);
+            this.ForeColor = System.Drawing.Color.Yellow;
             this.Name = "RegistroLibros";
             this.Text = "RegistroLibros";
             this.Load += new System.EventHandler(this.RegistroLibros_Load);
