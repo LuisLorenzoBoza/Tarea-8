@@ -128,7 +128,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="DAL\Scripts\RegistroLibrosDb.sql" />
   </ItemGroup>
